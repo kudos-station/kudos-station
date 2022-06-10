@@ -19,7 +19,7 @@ See the LICENSE file for detailed info.
 
 | Person                     |                          Main Contribution                          |
 |----------------------------|:-------------------------------------------------------------------:|
-| Kaan Turkmen (kaanturkmen) |         Backend, Docker, AWS Services and a complex query.          |
+| Kaan Turkmen (kaanturkmen) |         Backend, Docker, AWS and a complex query.                   |
 | Can Usluel (canusluel)     | Login, Home, Creating Kudos, Scoreboard Pages, and a complex query. |
 | Omer Guler (omergguler)    |               Admin Panel Page, and a complex query.                |
 | Irmak Erkol (ierkol18)     |         Filter, Profile, Search Page, and a complex query.          |

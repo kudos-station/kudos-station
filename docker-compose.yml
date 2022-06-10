@@ -1,0 +1,36 @@
+# Docker compose for the Kudos Station.
+
+version: "3.8"
+
+services:
+  backend:
+    image: kaanturkmen/kudos-station-backend:latest
+    ports:
+        - "80:8080"
+    environment:
+        TZ: "Europe/Istanbul"
+        SPRING_DATASOURCE_URL: "HIDDEN"
+        SPRING_DATASOURCE_USERNAME: "HIDDEN"
+        SPRING_DATASOURCE_PASSWORD: "HIDDEN"
+        USERS_QUERY: "HIDDEN"
+        AUTHORITY_QUERY: "HIDDEN"
+    networks:
+        - backend
+        - frontend
+
+  frontend:
+    image: kaanturkmen/kudos-station-frontend:latest
+    ports:
+        - "3000:3000"
+    environment:
+        REACT_APP_KUDOS_BASE_URL: "HIDDEN"
+    depends_on:
+        - backend
+    networks:
+        - backend
+        - frontend
+
+
+networks:
+  backend:
+  frontend:

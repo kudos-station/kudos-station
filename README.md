@@ -17,13 +17,13 @@ See the LICENSE file for detailed info.
 
 # Contributors
 
-| Person                     |                          Main Contribution                          |
-|----------------------------|:-------------------------------------------------------------------:|
-| Kaan Turkmen (kaanturkmen) |         Backend, Docker, AWS and a complex query.                   |
-| Can Usluel (canusluel)     | Login, Home, Creating Kudos, Scoreboard Pages, and a complex query. |
-| Omer Guler (omergguler)    |               Admin Panel Page, and a complex query.                |
-| Irmak Erkol (ierkol18)     |         Filter, Profile, Search Page, and a complex query.          |
-| Kerem Aksoy (kaksoy17)     |        Filter Page, Database Diagram, and a complex query.          |
+| Person                     |                 Main Contribution                 |
+|----------------------------|:-------------------------------------------------:|
+| Kaan Turkmen (kaanturkmen) |             Backend, Docker and AWS.              |
+| Can Usluel (canusluel)     | Login, Home, Creating Kudos and Scoreboard Pages. |
+| Omer Guler (omergguler)    |                 Admin Panel Page.                 |
+| Irmak Erkol (ierkol18)     |         Filter, Profile and Search Pages.         |
+| Kerem Aksoy (kaksoy17)     |         Filter Page and Database Diagram.         |
 
 # Additional Info
 
